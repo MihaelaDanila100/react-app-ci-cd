@@ -8,5 +8,5 @@ jobs:
         run: mkdir tests
       - name: write-text
         run: cd tests
-        run: touch test.txt
-        run: echo "This is a test!" >> test.txt
+      - run: touch test.txt
+      - run: echo "This is a test!" >> test.txt
